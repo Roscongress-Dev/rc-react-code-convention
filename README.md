@@ -56,9 +56,9 @@ const user = {
     }
 ```
 
-- для интерфейсов, работающих объектами, получаемыми с сервера использовать суффикс DTO
+- для интерфейсов, работающих объектами, получаемыми с сервера использовать суффикс CFS
 ```ts
-    export interface PermissionsDTO {
+    export interface PermissionsCSF {
         access: boolean;
         users: number[];
         isAll?: boolean;
